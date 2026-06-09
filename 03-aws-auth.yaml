@@ -17,12 +17,12 @@ data:
       username: ramesh
     - groups:
       - roboshop-trainee
-      userarn: arn:aws:iam::024579064366:user/ramesh
-      username: ramesh
+      userarn: arn:aws:iam::024579064366:user/user1
+      username: user1
     - groups:
       - roboshop-trainee
-      userarn: arn:aws:iam::024579064366:user/ramesh
-      username: ramesh
+      userarn: arn:aws:iam::024579064366:user/user2
+      username: user2
 kind: ConfigMap
 metadata:
   annotations:
@@ -31,5 +31,4 @@ metadata:
   creationTimestamp: "2026-06-08T13:46:37Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "187171"
-  uid: b0749e37-c62c-41b5-8d45-c800d261c674
+
