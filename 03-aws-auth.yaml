@@ -17,4 +17,9 @@ data:
       userarn: arn:aws:iam::024579064366:user/ramesh
       username: ramesh
 kind: ConfigMap
-
+metadata:
+  creationTimestamp: "2026-06-08T13:46:37Z"
+  name: aws-auth
+  namespace: kube-system
+  resourceVersion: "1274"
+  uid: b0749e37-c62c-41b5-8d45-c800d261c674
